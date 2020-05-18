@@ -1,0 +1,150 @@
+body, html {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #555;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+}
+
+.left-list {
+    margin-left: 1rem;
+}
+
+.right-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+}
+
+.square-logo-container {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: .155rem;
+}
+
+.square {
+    background-color: #777;
+}
+
+.square-hover {
+    background-color: black;
+}
+
+.list-item button {
+    background-color:#4285f4;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+    margin: 20vh auto;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    cursor: pointer;
+}
+
+input {
+    width: 30%;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: 0.5px solid #ddd;
+    color: black;
+    font-size: 16px;
+    padding-left: 3rem;
+}
+
+input:hover {
+    box-shadow: 1px 2px 3px #ddd, -1px -2px 3px #ddd;
+}
+
+input:focus {
+    box-shadow: 1px 2px 3px #ddd, -1px -2px 3px #ddd;
+}
+
+.search-container-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #efefef;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    color: #777;
+    cursor: pointer;
+}
+
+.search-container-button:hover {
+    border: 1px solid #bbb;
+}
+
+footer {
+    background-color: #efefef;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}  
+
+footer p {
+    margin-left: 2rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.top-div {
+    width: 100vw;
+    border: 1px solid #bbb;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left-list {
+    margin-left: 1.5rem;
+}
+
+.footer-right-list {
+    margin-right: 2rem;
+}
+
+
